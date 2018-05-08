@@ -1,4 +1,16 @@
 #!/bin/bash
+
+INSTALLING DOCKER
+------------------
+
+
+
+
+
+
+
+
+
 http://52.243.27.107/
 sudo chown -R $USER:$USER /var/www/coastalbendstormexpo.com/public_html
 sudo chown -R $USER:$USER /var/www/water.calculator.cctexas.com/public_html
