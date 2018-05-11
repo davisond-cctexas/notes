@@ -2,15 +2,28 @@
 
 INSTALLING DOCKER
 ------------------
+1. sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
 
 
 
+2. curl -fsSL --insecure https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+3. sudo apt-key fingerprint 0EBFCD88
+
+4. sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+5. sudo apt update
 
 
 
-
-
-
+	
 http://52.243.27.107/
 sudo chown -R $USER:$USER /var/www/coastalbendstormexpo.com/public_html
 sudo chown -R $USER:$USER /var/www/water.calculator.cctexas.com/public_html
